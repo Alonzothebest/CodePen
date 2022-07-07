@@ -1,0 +1,19 @@
+.footer-wrapper {
+    text-align: center;
+    background-color: #3b3b3b;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.footer-wrapper > .footers {
+    padding: 10px 0px;
+    border: 1px solid gray;
+}
+
+.black-space{
+    padding-top: 1px;
+    background-color: black;
+    padding-bottom: 200px;
+}

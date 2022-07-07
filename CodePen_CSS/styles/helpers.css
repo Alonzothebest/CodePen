@@ -1,0 +1,19 @@
+.body-wrapper > .left-column > .page-introduction > h1 > .white {
+    color: white;
+    font-weight: 900;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #66ebed;
+}
+
+.footer-helper{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}

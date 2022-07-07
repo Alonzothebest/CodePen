@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+.nav-bar {
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    }
+
+.nav-bar > .codepen-logo img{
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+.nav-bar > .codepen-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > .nav-buttons {
+    width: 300px;
+    margin-right: 30%;
+}
+
+.nav-bar > .nav-buttons > .button-line {
+    
+    font-size: 1.35em;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-bar > .nav-buttons > .button-line > .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-bar > .nav-buttons > .button-line > .navigation-links > .nav-link {
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar > .nav-buttons > .button-line > .dropdown-spark > .spark-text {
+    color: gray;
+    padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+.nav-bar > .nav-buttons > .button-line > .down-arrow i{
+color: gray;
+padding-left: 13px;
+font-size: 1.25rem;
+}
+
+.nav-bar > .nav-buttons > .explore-text{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    color: yellow;
+    margin-top: 15px;
+    font-size: 1.25em;
+}
+
+.nav-bar > .Setup-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-bar > .Setup-buttons > .create-button {
+    background-color: #3b3b3b;
+    margin-right: 50px;
+    padding: 0px 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-bar > .Setup-buttons > .create-button > .create-text {
+padding-right: 15px;
+font-size:0.85rem;
+}
+
+.nav-bar > .Setup-buttons > .create-button > .create-dropdown {
+color: #00ff00;
+font-size: 1.99em;
+padding-top: 8px;
+}
+
+.nav-bar > .Setup-buttons > .search-icon {
+color: grey;
+margin-right: 50px;
+font-size: 2.6em;
+display: flex;
+align-items: center;
+}
+
+.nav-bar > .Setup-buttons > .login-button {
+    background-color: #3b3b3b;
+    font-size: 0.85rem;
+    margin-right: 30px;
+    padding: 0px 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar > .Setup-buttons > .signup-button {
+    background-color: #3b3b3b;
+    font-size: 0.85rem;
+    margin-right: 25px;
+    padding: 0px 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

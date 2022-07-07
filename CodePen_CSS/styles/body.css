@@ -1,0 +1,62 @@
+.body-wrapper {
+    background-image: linear-gradient(to bottom right,#565656, #010203);
+    padding-top: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.body-wrapper > .left-column {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 140px;
+}
+
+.body-wrapper > .left-column > .page-introduction h1{
+    color: #cbcbcb;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+
+
+.body-wrapper > .left-column > .page-body h1{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2.058em;
+    margin-bottom: 50px;
+}
+
+.body-wrapper > .left-column > .page-signup-button-wrapper {
+    background-color: #46a360;
+    margin-right: 15px;
+    font-size: 2em;
+    padding: 8px 9px;
+    border-radius: 3px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.body-wrapper > .left-column > .learn-more-button {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding: 8px 9px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.body-wrapper > .right-column {
+    margin-top: 50px;
+    margin-left: 34.05%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+}
+
+.body-wrapper > .right-column > .image-introduction {
+text-align: left;
+font-size: 1.18em;
+margin-bottom: 3px;
+}
